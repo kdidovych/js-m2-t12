@@ -73,7 +73,7 @@ MyArray.prototype.concat = myConcat;
 
 /**
  * @param {Number} depth 
- * @returns {Array}
+ * @returns {MyArray}
  */
 const myFlat = function (depth = 1) {
     if (depth <= 0) return this;
